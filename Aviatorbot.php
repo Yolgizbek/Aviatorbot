@@ -1,7 +1,7 @@
 <?php
-ob_start("start");
-date_Default_timezone_set('$Bishkek');
-define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38");
+ob_start();
+date_Default_timezone_set('Asia/kyrguzistan'/Bishkek);
+define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38');
 
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -44,6 +44,8 @@ $chat_id = $update->message->chat->id;
 }
 
 send("<b>⚠️ Maʼlumotlar bazasiga ulanishda muammo yuz berdi!</b>",null);
+
+// Menyuli xabar yuborish
 
 $amenu = json_encode([
 'inline_keyboard'=>[
