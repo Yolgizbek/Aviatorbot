@@ -1,7 +1,7 @@
 <?php
 ob_start("start");
-date_Default_timezone_set('$timeBishkek');
-define("8126890936:AAGytLUBfQsnfw2vetjvIenFaDXcMgVQuSc");
+date_Default_timezone_set('$Bishkek');
+define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38");
 
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
