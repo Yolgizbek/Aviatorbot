@@ -4,7 +4,7 @@ date_Default_timezone_set('Asia/kyrguzistan'/Bishkek);
 define("8126890936:AAGytLUBfQsnfw2vetjvIenFaDXcMgVQuSc');
 
 function bot($method,$datas=[]){
-$url = "https://api.telegram.org/bot".API_KEY."/".$method;
+$url = "https://api.telegram.org/bot"."8126890936:AAGytLUBfQsnfw2vetjvIenFaDXcMgVQuSc"/".$method";
 $ch = curl_init("https://mel-bet.kg/ru/allgamesentrance/crash");
 curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
