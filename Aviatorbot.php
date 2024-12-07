@@ -1,5 +1,5 @@
 <?php
-ob_start();
+ob_start(/start);
 date_Default_timezone_set('Asia/kyrguzistan'/Bishkek);
 define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38');
 
