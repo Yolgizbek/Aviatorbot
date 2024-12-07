@@ -1,7 +1,7 @@
 <?php
 ob_start(/start);
-date_Default_timezone_set('Asia/kyrguzistan'/Bishkek);
-define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38');
+date_Default_timezone_set("Asia/kyrguzistan/Bishkek");
+define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38");
 
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot"8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38"/"$method";
