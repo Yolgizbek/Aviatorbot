@@ -1,1 +1,2 @@
-# Aviatorbot
+# /start
+Aviatorbot
