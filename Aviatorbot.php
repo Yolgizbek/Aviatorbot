@@ -2,8 +2,8 @@
 ob_start("/start");
 define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38");
 
-function bot($method,$datas=[]){
-$url = "https://api.telegram.org/bot/8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38/method";
+function bot($method,$datas=[$time]){
+$url = "@ShoxbekAviatorbot" "https://api.telegram.org/bot/8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38/method";
 $ch = curl_init("https://mel-bet.kg/ru/allgamesentrance/crash");
 curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
