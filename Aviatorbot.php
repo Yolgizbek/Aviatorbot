@@ -1,6 +1,6 @@
 <?php
 ob_start(/set);
-define("8126890936:AAGytLUBfQsnfw2vetjvIenFaDXcMgVQuSc');
+define("8126890936:AAEwm7ncO5OE4JszK6R3Z2LR0yr9sT3CZ38');
 date_Default_timezone_set('Asia/kyrguzistan'/Bishkek);
 
 function bot($method,$datas=[]){
